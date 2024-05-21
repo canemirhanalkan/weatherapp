@@ -1,0 +1,27 @@
+{% load static %}
+
+
+<div class="card weather-card">
+    <div class="row g-0">
+
+      <div class="col-md-4">
+        <div class="card-body info-area">
+          <p class="card-title city">{{ city }}</p>
+          <p class="card-text day">{{ day }}<p>
+          <p class="card-text temp">{{ temp }} <i class="fa-solid fa-temperature-low"></i><p>
+        </div>
+      </div>
+
+
+      <div class="col-md-2 description-icon">
+            {{ description }}
+            <p class="card-text">
+              <img class="weather-icon" src="https://api.openweathermap.org/img/w/{{ icon }}.png" width="100px">
+            </p>
+      </div>
+     
+      <div class="col-md-6  search-form-area">
+        {% include "partials/_form.html" %}
+      </div>
+    </div>
+  </div>

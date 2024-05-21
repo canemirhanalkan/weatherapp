@@ -1,0 +1,8 @@
+{% load static %}
+
+<form method="POST">
+    {% csrf_token %}
+    <input type="text" class="form-control search-form" placeholder="Şehir" name="city" style="max-width:400px">
+    <br>
+    <button class="btn btn-primary search-btn" type="submit">Arama</button>
+</form>

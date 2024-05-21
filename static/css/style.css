@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+body {
+  background-image: url("/static/image/back3.jpg");
+}
+
+.weather-app-content {
+  margin-top: 200px;
+}
+
+.weather-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  border: 1px solid black;
+  border-radius: 25px;
+  position: relative;
+}
+.weather-card .search-form-area {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+.weather-card .search-form-area .search-btn {
+  width: 400px;
+  background-color: #5585b5;
+  border: 0px;
+  height: 40px;
+}
+.weather-card .info-area {
+  font-size: 30px;
+  font-family: Roboto;
+  padding-left: 30px;
+}
+.weather-card .info-area .city {
+  font-weight: 800;
+}
+.weather-card .description-icon {
+  font-family: Roboto;
+  font-weight: 800;
+  font-size: 30px;
+  padding-top: 30px;
+}/*# sourceMappingURL=style.css.map */
